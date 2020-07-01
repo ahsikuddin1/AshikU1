@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-</html>
+<html>
 <head>
   <link href="/normalize.css" rel="stylesheet">
   <style>
@@ -7,41 +7,51 @@
       text-align: center;
       background-size: cover;
       color: Pink;
-    }
-    a {
+}
+ @font-face {
+  font-family:Oswald;
+  src: url('Oswald-Regular.ttf');
+}
+
+body {
+  font-family: Oswald, "Oswald", sans-serif;
+  margin:0;
+  padding:0;
+  background-image: url('halftone-yellow.png');
+a {
       color: red;
-    }
-    h1 {
+}
+h1 {
       font-size: 60px;
-    }
-    img {
+}
+img {
       margin: 50px 0px 0px 0px;
       border: 7px solid white;
       border-radius: 20px;
-    }
-    ul {
+ }
+ ul {
       padding: 10px;
       background: green;
-    }
-    li {
+}
+ li {
       display: inline;
       padding: 0px 10px 0px 10px;
-    }
-    article {
+}
+article {
       max-width: 400px;
       padding: 3px;
       margin: 0 auto;
-    }
-    @media (max-width: 400px) {
-      h1 {
+}
+@media (max-width: 400px) {
+  h1 {
         font-size: 28px;
         padding: 8px;
-      }
-      li {
+}
+li {
         padding: 5px;
         display: block;
-      }
-    }
+  }
+}
   </style>
 </head>
 <body>
